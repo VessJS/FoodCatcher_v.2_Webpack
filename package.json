@@ -1,0 +1,42 @@
+{
+  "name": "foodcatcher-v.2",
+  "version": "1.0.0",
+  "description": "FoodCatcher_v.2_Webpack",
+  "main": "./dist/app.bundle.js",
+  "watch": {
+    "test-pretty": {
+      "patterns": [
+        "src",
+        "test"
+      ],
+      "extensions": "ts"
+    }
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js ",
+    "build": "webpack",
+    "clean": "rm -rf ./dist/*"
+  },
+  "author": "Marcin Andrzejewski",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/pixi.js": "^4.6.2",
+    "@types/tape": "^4.2.29",
+    "copy-webpack-plugin": "^4.0.1",
+    "faucet": "0.0.1",
+    "file-loader": "^0.10.0",
+    "lite-server": "^2.3.0",
+    "npm-watch": "^0.1.8",
+    "pixi.js": "^4.6.2",
+    "tape": "^4.6.3",
+    "ts-loader": "^2.0.0",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.1.5",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
