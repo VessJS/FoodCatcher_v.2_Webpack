@@ -4,6 +4,7 @@ FoodCatcher-v.2-Webpack
 
 To run this app, you can use:
 ### `git clone https://github.com/VessJS/foodcatcher-v2-webpack.git`
+### `npm install`
 ### `npm start`
 
 
