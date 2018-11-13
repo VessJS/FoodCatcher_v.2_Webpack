@@ -20,20 +20,20 @@
   "author": "Marcin Andrzejewski",
   "license": "MIT",
   "devDependencies": {
-    "@types/pixi.js": "^4.6.2",
-    "@types/tape": "^4.2.29",
-    "copy-webpack-plugin": "^4.0.1",
+    "@types/pixi.js": "^4.8.3",
+    "@types/tape": "^4.2.32",
+    "copy-webpack-plugin": "^4.6.0",
     "faucet": "0.0.1",
     "file-loader": "^0.10.0",
     "lite-server": "^2.3.0",
     "npm-watch": "^0.1.8",
-    "pixi.js": "^4.6.2",
-    "tape": "^4.6.3",
+    "pixi.js": "^4.8.2",
+    "tape": "^4.9.1",
     "ts-loader": "^2.0.0",
     "ts-node": "^2.1.0",
-    "typescript": "^2.1.5",
+    "typescript": "^2.9.2",
     "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.3.0"
+    "webpack-dev-server": "^2.11.3"
   },
   "directories": {
     "test": "test"
